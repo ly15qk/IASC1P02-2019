@@ -1,0 +1,118 @@
+
+#wrapper{
+    width:1000px;
+    height:580px;
+  }
+
+#header{
+    width: 1000px;
+    height: 100px;
+border:2px solid;
+}
+
+#company{padding:0px 10px 0px 112px;
+  position:absolute;
+  top: 20px;
+  left: 20px;
+  font-size:30px;
+}
+
+#logo{
+    width: 90px;
+    height: 90px;
+    padding:5px;
+}
+
+#leftcontent{
+border:2px solid;
+    width: 115px;
+    height: 400px;
+    float:left;
+    margin: 58px 0px 0px 0px;
+    font-size:20px;
+}
+
+#contacttext{position:absolute;
+margin:0px 0px 10px 0px;
+}
+
+#contact{
+  position:absolute;
+  left:135px;
+  border:2px solid;
+  width: 873px;
+  height:30px;
+  border: 2px solid;
+  margin:2px 0px 0px 0px;
+}
+
+#rightContent{position:absolute;
+  top:150px;
+  left:135px;
+  border:2px solid;
+  margin: 20px 0px 0px 0px;
+    width: 873px;
+    height: 400px;
+    float:left;
+}
+
+.littleBox{border:2px solid;
+    width:40px;
+    height:40px;
+    margin: 110px 5px 5px 5px;
+    float:left;
+    }
+
+#border{border:2px solid;
+width:853px;
+height:30px;
+position:relative;
+left:5px;}
+
+#productpic{
+  margin:12.5px;
+}
+
+#Product1{
+    text-align:left;
+    width:175px;
+    height:250px;
+    position:absolute;
+    left:50px;
+    bottom: 88px;
+    border:1px solid;
+}
+
+#Product2{
+border:1px solid;
+    width:175px;
+    height:250px;
+    position:absolute;
+    left:250px; bottom:88px;
+}
+
+#Product3{
+  border:1px solid;
+  position:absolute;
+    width:175px;
+    height:250px;
+    left: 450px; bottom: 88px;
+}
+
+#Product4{
+  border:1px solid;
+  position:absolute;
+    width:175px;
+    height:250px;
+    left:650px; bottom: 88px;
+}
+
+#info{
+height:50px;
+width:853px;
+position:absolute;
+bottom:10px;
+left:5px;
+border:1px solid;
+font-size:15px;
+}
