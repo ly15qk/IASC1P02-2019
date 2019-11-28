@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>Book Appointment</title>
+<link href="Finalassignment.css" rel="stylesheet" type="text/css" />
+  <script type="text/javascript" src="Finalassignmentjs.js"></script>
+</head>
+
+<body>
+
+  <div class="header">
+    <div class="title">Grooming and Adoption</div><img src="paw.jpg" class="logo" width="65" alt="logo"/>
+  <!--Learned dropdown button from https://www.wikihow.com/Create-a-Dropdown-Menu-in-HTML-and-CSS*//
+  <div class="dropdown"-->
+  <div class="dropdown">
+    <button class="dropdownbtn">Menu</button>
+    <div class="dropdown-cont">
+      <a href="home.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="adoption.html">Adoption</a>
+      <a href="grooming.html">Grooming</a>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <div>
+    <h1 class="bookappthead">Book Your Appointment Here</h1>
+    <p class="apptpara">Please enter your contact information below as well as your pup's name and preferred appointment time. Look forward to seeing you! For any cancellations, please give 24 hours notice. </p>
+    <div class="form">
+
+      <!-- learned from https://www.w3schools.com/js/tryit.asp?filename=tryjs_form_submit
+    and action attribute from https://stackoverflow.com/questions/3933966/required-attribute-action-not-specified-->
+      <form id="Apptform" action="?">
+      Your Name:<br/><input type="text" class="namefield" maxlength="20" value="Enter first and last name"/>
+        <br/>
+      Email Address:<br/><input type="text" class="emailfield" maxlength="30" value="Enter email here"/>
+        <br/>
+      Pup's Name:<br/><input type="text" class="pupnamefield" maxlength="20" value="Enter your pup's name"/>
+        <br/>
+      Appointment Time:<br/><select class="apptfield"><option>Select appointment date</option><option value="First">Monday, December 16th, 2019 @ 9am</option><option value="Second">Tuesday, December 17th, 2019 @ 11am</option><option value="Third">Wednesday, December 18th, 2019 @ 4pm</option></select>
+      <br/>
+
+    <!--learned from https://www.youtube.com/watch?v=ikR9DsGMUMc-->
+
+<button id="resetfields"> Reset </button>
+<button id="bookhere" >Book Now</button>
+</form>
+
+      </div>
+
+    <div class="footer">
+    <div class="contactinfo">Hours: Monday-Friday, 8am-5pm<br/>Address: 1234 Paws Avenue, Niagara, ON<br/>Contact #: 905-555-5555<br/>Email:groomingandadoption@hotmail.com</div>
+    <p class="twitter"><a href="https://twitter.com/paws"><img src="https://cfcdnpull-creativefreedoml.netdna-ssl.com/wp-content/uploads/2017/06/Twitter-logo-2012.png" alt="twitter" width="40" height="40"/></a></p>
+  </div>
+</div>
+</body>
+</html>

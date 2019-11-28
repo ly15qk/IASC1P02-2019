@@ -1,0 +1,46 @@
+/*This is css page for final assignment*/
+
+
+body{width:1000px;font-family:"calibri";}
+
+
+.header{height:65px; background-color:#28D23D;}
+.title{position:relative;left:70px; font-size: 35px;height:65px; top:10px;}
+.logo{position:absolute; top:8px;}
+/*Learned dropdown button from https://www.wikihow.com/Create-a-Dropdown-Menu-in-HTML-and-CSS*/
+.dropdownbtn{color: black; padding: 5px; font-size: 20px; border:1px; position:relative; left:900px; bottom:50px;}
+.dropdown{position:relative; display:inline-block;}
+.dropdown-cont{display:none; position:relative; left: 900px; bottom: 50px;background-color:lightgrey; min-width:100px;}
+.dropdown-cont a{color:black; padding: 5px 5px;
+text-decoration:none; display:block;}
+.dropdown-cont a:hover{background-color:white;}
+.dropdown:hover .dropdown-cont{display:block;}
+.dropdown:hover .dropdownbtn{background-color:grey;}
+.facts{font-size: 18px;}
+.mostpopdogs{font-weight: bold;font-size: 20px; color: #24A4B0; text-transform: capitalize; padding-left:5px;height:20px;}
+#smalldogs{color:#3559BD;padding-left:5px;height:20px;}
+#largedogs{color:#3559BD;padding-left:5px;height:20px;}
+.leftcol{float:left;width:496px;height:1650px;text-align:left;border:1px solid; margin-bottom:20px;}
+.rightcol{float:left;width:496px;height:1650px;text-align:left;border:1px solid;margin-bottom:20px;}
+.thinkingabout{font-weight:bold;font-size: 20px; color: #24A4B0;}
+.footer{height:80px;width:1000px;background-color:#28D23D;}
+.contactinfo{font-size:15px;padding:5px;margin-top:30px;}
+.twitter{position: relative; bottom:75px;left:950px;}
+.whatwedo,.benefits {color:#3559BD;}
+.aboutus,.benefitstext,.martytxt,.lilatxt,.bellatxt,.duketxt,.adoptionpara,.groomingtext,.apptpara {font-size: 18px; padding:1px;}
+.adoptionheader,.bookappthead{color:#3559BD;}
+.adoptionpara{margin-bottom:25px;}
+.column1,.column2,.column3,.column4{float:left;width:248px; text-align:left;border:1px solid; margin-bottom:20px;}
+.martypic,.lilapic,.bellapic,.dukepic,.washdry,.nails,.fullgroom{display:block; margin-left:auto; margin-right:auto;}
+.treatmenttype{color:#3559BD;font-size:20px;}
+.colgroom1,.colgroom2,.colgroom3{float:left;width:331.33333px;text-align:left;border:1px solid; margin-bottom:20px;}
+.washtext,.cuttrimtext,.fulltreat{padding:1px; font-size:16px;}
+.price{color:#24A4B0;}
+.booknow{border:1px solid; padding: 10px;margin:10px;}
+#apptbutton{background-color:#24A4B0; font-size:18px;margin-top:15px;margin-bottom:15px; padding:5px;}
+.groomingtext{margin:25px 0px 25px 0px;}
+#Apptform{margin-top:20px; margin-bottom:40px;}
+.namefield,.emailfield,.pupnamefield,.apptfield,#resetfields,#bookhere{margin-bottom:20px;}
+#resetfields{margin-right:10px;}
+#Apptform{color:#24A4B0;font-size: 18px; font-weight:bold;}
+.avglsavgwt{margin-top:0px;}
