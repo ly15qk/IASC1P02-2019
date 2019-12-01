@@ -9,3 +9,6 @@ const init =function(){
   document.getElementById('resetfields').addEventListener('click',reset);
   document.getElementById('bookhere').addEventListener('click',send);
 }
+$(function(){
+    $('#datetime24').combodate();
+});

@@ -42,10 +42,14 @@
         <br/>
       Pup's Name:<br/><input type="text" class="pupnamefield" maxlength="20" value="Enter your pup's name"/>
         <br/>
-      Appointment Time:<br/><select class="apptfield"><option>Select appointment date</option><option value="First">Monday, December 16th, 2019 @ 9am</option><option value="Second">Tuesday, December 17th, 2019 @ 11am</option><option value="Third">Wednesday, December 18th, 2019 @ 4pm</option></select>
-      <br/>
-
-    <!--learned from https://www.youtube.com/watch?v=ikR9DsGMUMc-->
+      Appointment Time:<br/>
+<!--learned from: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/datetime-local-->
+    <input type="datetime-local" id="datetime24"
+       name="appointment-time" value="2019-12-03T19:30"
+       min="2019-12-03T00:00" max="2020-06-01T00:00"/>
+<br/>
+<br/>
+<!--learned from https://www.youtube.com/watch?v=ikR9DsGMUMc-->
 
 <button id="resetfields"> Reset </button>
 <button id="bookhere" >Book Now</button>
@@ -54,7 +58,7 @@
       </div>
 
     <div class="footer">
-    <div class="contactinfo">Hours: Monday-Friday, 8am-5pm<br/>Address: 1234 Paws Avenue, Niagara, ON<br/>Contact #: 905-555-5555<br/>Email:groomingandadoption@hotmail.com</div>
+    <div class="contactinfo"><strong>Hours: Monday-Friday, 8am-5pm</strong><br/>Address: 1234 Paws Avenue, Niagara, ON<br/>Contact #: 905-555-5555<br/>Email:groomingandadoption@hotmail.com</div>
     <p class="twitter"><a href="https://twitter.com/paws"><img src="https://cfcdnpull-creativefreedoml.netdna-ssl.com/wp-content/uploads/2017/06/Twitter-logo-2012.png" alt="twitter" width="40" height="40"/></a></p>
   </div>
 </div>

@@ -4,13 +4,15 @@
 body{width:1000px;font-family:"calibri";}
 
 
+
+
 .header{height:65px; background-color:#28D23D;}
 .title{position:relative;left:70px; font-size: 35px;height:65px; top:10px;}
 .logo{position:absolute; top:8px;}
 /*Learned dropdown button from https://www.wikihow.com/Create-a-Dropdown-Menu-in-HTML-and-CSS*/
 .dropdownbtn{color: black; padding: 5px; font-size: 20px; border:1px; position:relative; left:900px; bottom:50px;}
 .dropdown{position:relative; display:inline-block;}
-.dropdown-cont{display:none; position:relative; left: 900px; bottom: 50px;background-color:lightgrey; min-width:100px;}
+.dropdown-cont{display:none; position:relative; left: 900px; bottom: 50px;background-color:lightgrey; min-width:100px;font-size:18px;}
 .dropdown-cont a{color:black; padding: 5px 5px;
 text-decoration:none; display:block;}
 .dropdown-cont a:hover{background-color:white;}
@@ -22,14 +24,14 @@ text-decoration:none; display:block;}
 #largedogs{color:#3559BD;padding-left:5px;height:20px;}
 .leftcol{float:left;width:496px;height:1650px;text-align:left;border:1px solid; margin-bottom:20px;}
 .rightcol{float:left;width:496px;height:1650px;text-align:left;border:1px solid;margin-bottom:20px;}
-.thinkingabout{font-weight:bold;font-size: 20px; color: #24A4B0;}
+.thinkingabout,.vidtext{font-weight:bold;font-size:20px; color: #24A4B0;}
 .footer{height:80px;width:1000px;background-color:#28D23D;}
-.contactinfo{font-size:15px;padding:5px;margin-top:30px;}
+.contactinfo{font-size:16px;padding-bottom:5px;margin-top:40px;}
 .twitter{position: relative; bottom:75px;left:950px;}
 .whatwedo,.benefits {color:#3559BD;}
 .aboutus,.benefitstext,.martytxt,.lilatxt,.bellatxt,.duketxt,.adoptionpara,.groomingtext,.apptpara {font-size: 18px; padding:1px;}
 .adoptionheader,.bookappthead{color:#3559BD;}
-.adoptionpara{margin-bottom:25px;}
+.adoptionpara{margin-bottom:25px; font-size:18px;}
 .column1,.column2,.column3,.column4{float:left;width:248px; text-align:left;border:1px solid; margin-bottom:20px;}
 .martypic,.lilapic,.bellapic,.dukepic,.washdry,.nails,.fullgroom{display:block; margin-left:auto; margin-right:auto;}
 .treatmenttype{color:#3559BD;font-size:20px;}
@@ -39,8 +41,8 @@ text-decoration:none; display:block;}
 .booknow{border:1px solid; padding: 10px;margin:10px;}
 #apptbutton{background-color:#24A4B0; font-size:18px;margin-top:15px;margin-bottom:15px; padding:5px;}
 .groomingtext{margin:25px 0px 25px 0px;}
-#Apptform{margin-top:20px; margin-bottom:40px;}
-.namefield,.emailfield,.pupnamefield,.apptfield,#resetfields,#bookhere{margin-bottom:20px;}
+#Apptform{margin-top:20px; margin-bottom:40px;color:#24A4B0;font-size: 18px; font-weight:bold;}
+.namefield,.emailfield,.pupnamefield,.apptfield,#datetime24,#resetfields,#bookhere{margin-bottom:20px;font-size:16px;font-family:"calibri";}
 #resetfields{margin-right:10px;}
-#Apptform{color:#24A4B0;font-size: 18px; font-weight:bold;}
-.avglsavgwt{margin-top:0px;}
+.checklist{font-size:18px;}
+.avglsavgwt{margin-top:0px; font-size:16px;}
